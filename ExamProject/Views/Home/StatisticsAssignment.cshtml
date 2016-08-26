@@ -1,0 +1,200 @@
+﻿@model IEnumerable<ExamProject.Models.StateOfAssignment>
+
+@{
+    ViewBag.Title = "StatisticsAssignment";
+}
+
+@{
+    Layout = "~/Views/Shared/_LayoutTeacher.cshtml";
+}
+
+<h2>Assignment Statistics</h2>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Assignment Statistics</title>
+</head>
+<body>
+    <h4>@Html.DisplayFor(model => model.First().Assignment.Title)</h4>
+    <div>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                Still Working:
+            </dt>
+            <dd id="place4NoStillWorking">
+                
+            </dd>
+            <dt>
+                Need Help:
+            </dt>
+            <dd id="place4NoNeedHelp">
+                
+            </dd>
+            <dt>
+                Finished:
+            </dt>
+            <dd id="place4NoFinished">
+                
+            </dd>
+        </dl>
+    </div>
+
+    <div>
+        @Html.ActionLink("Back", "AfterLoginTeacher")
+    </div>
+
+</body>
+</html>
+
+@section scripts
+{
+    <script src="~/Scripts/jquery.signalR-2.2.0.min.js"></script>
+    <script src="~/signalr/hubs"></script>
+    <script>
+        // proxy class for communicating with the server
+        var myHub = $.connection.myHub;
+
+        function countNoStillWorking()
+        {
+            //console.log("countNoStillWorking")
+            @{
+                var noStillWorking = 0;
+                foreach( var item in Model )
+                {
+                    if (item.State == 1)
+                    {
+                        noStillWorking++;
+                    }
+                }
+            }
+            $('#place4NoStillWorking').text(@noStillWorking);
+        }
+        function countNoNeedHelp()
+        {
+            //console.log("countNoNeedHelp")
+            @{
+                var noNeedHelp = 0;
+                foreach( var item in Model )
+                {
+                    if (item.State == 2)
+                    {
+                        noNeedHelp++;
+                    }
+                }
+            }
+            $('#place4NoNeedHelp').text(@noNeedHelp);
+        }
+        function countNoFinished()
+        {
+            //console.log("countNoFinished")
+            @{
+                var noFinished = 0;
+                foreach( var item in Model )
+                {
+                    if (item.State == 3)
+                    {
+                        noFinished++;
+                    }
+                }
+            }
+            $('#place4NoFinished').text(@noFinished);
+        }
+
+        countNoStillWorking();
+        countNoNeedHelp()
+        countNoFinished();
+
+        myHub.client.updateNewStudent = function (studentName, studentId)
+        {
+            //console.log("i am here");
+            var temp;
+            temp = $('#place4NoStillWorking').text();
+            temp++;
+            $('#place4NoStillWorking').text(temp);
+
+        }
+        myHub.client.updateAssignmentState = function (studentId, studentName, state, previousState)
+        {
+            //console.log("i am here");
+            var temp1;
+            var temp2;
+            switch(state) {
+                case 1:
+                    temp1 = $('#place4NoStillWorking').text();
+                    temp1++;
+                    switch(previousState) {
+                        case 1:
+                            console.log("student left the same state");
+                            break;
+                        case 2:
+                            temp2 = $('#place4NoNeedHelp').text();
+                            temp2--;
+                            $('#place4NoStillWorking').text(temp1);
+                            $('#place4NoNeedHelp').text(temp2);
+                            break;
+                        case 3:
+                            temp2 = $('#place4NoFinished').text();
+                            temp2--;
+                            $('#place4NoStillWorking').text(temp1);
+                            $('#place4NoFinished').text(temp2);
+                            break;
+                        default:
+                    }
+                    break;
+                case 2:
+                    temp1 = $('#place4NoNeedHelp').text();
+                    temp1++;
+                    switch(previousState) {
+                        case 1:
+                            temp2 = $('#place4NoStillWorking').text();
+                            temp2--;
+                            $('#place4NoNeedHelp').text(temp1);
+                            $('#place4NoStillWorking').text(temp2);
+                            break;
+                        case 2:
+                            console.log("student left the same state");
+                            break;
+                        case 3:
+                            temp2 = $('#place4NoFinished').text();
+                            temp2--;
+                            $('#place4NoNeedHelp').text(temp1);
+                            $('#place4NoFinished').text(temp2);
+                            break;
+                        default:
+                    }
+                    break;
+                case 3:
+                    temp1 = $('#place4NoFinished').text();
+                    temp1++;
+                    switch(previousState) {
+                        case 1:
+                            temp2 = $('#place4NoStillWorking').text();
+                            temp2--;
+                            $('#place4NoFinished').text(temp1);
+                            $('#place4NoStillWorking').text(temp2);
+                            break;
+                        case 2:
+                            temp2 = $('#place4NoNeedHelp').text();
+                            temp2--;
+                            $('#place4NoFinished').text(temp1);
+                            $('#place4NoNeedHelp').text(temp2);
+                            break;
+                        case 3:
+                            console.log("student left the same state");
+                            break;
+                        default:
+                    }
+                    break;
+                default:
+            }
+        }
+
+        //create the connection with connection.hub.start.
+        $.connection.hub.start().done(function () {
+            //Call myHub method
+            console.log("SignalR started");
+        });
+    </script>
+}

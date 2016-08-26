@@ -1,0 +1,71 @@
+﻿@model ExamProject.Models.Assignment
+
+@{
+    ViewBag.Title = "EditAssignment";
+}
+
+@{
+    Layout = "~/Views/Shared/_LayoutTeacher.cshtml";
+}
+
+<h2>Edit</h2>
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.AssignmentId)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Title, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Title, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Title, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Text, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextAreaFor(model => model.Text, new { @rows = 16, @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.Text, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-default" id="btnModifiedAssignment"/>
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back", "AfterLoginTeacher")
+</div>
+
+@section scripts
+{
+    <script src="~/Scripts/jquery.signalR-2.2.0.min.js"></script>
+    <script src="~/signalr/hubs"></script>
+    <script>
+        // proxy class for communicating with the server
+        var myHub = $.connection.myHub;
+
+        $('#divAssignmentId').hide();
+
+        $('#btnModifiedAssignment').click(function ()
+        {
+            var assignmentId = @Model.AssignmentId;
+            myHub.server.updateModifiedAssignment(assignmentId);
+        });
+
+        //create the connection with connection.hub.start.
+        $.connection.hub.start().done(function () {
+            //Call myHub method
+            console.log("SignalR started");
+        });
+    </script>
+}

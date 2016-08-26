@@ -1,0 +1,56 @@
+﻿@model ExamProject.Models.UserViewModel
+
+@{
+    ViewBag.Title = "AfterRegistrationStudent";
+}
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Assignment Details</title>
+</head>
+<body>
+    <h4>New student was succesfully created.</h4>
+    <div id="divUserName">@Model.UserName</div>
+    <div id="divUserId">@Model.UserId</div>
+    <div>
+        @Html.ActionLink("Back to Menu", "Index", "", new { @class = "updateView4Teacher1" }) |
+        @Html.ActionLink("Login", "LoginStudent", "", new { @class = "updateView4Teacher2" })
+    </div>
+
+</body>
+</html>
+
+@section scripts
+{
+    <script src="~/Scripts/jquery.signalR-2.2.0.min.js"></script>
+    <script src="~/signalr/hubs"></script>
+    <script>
+        // proxy class for communicating with the server
+        var myHub = $.connection.myHub;
+
+        $('#divUserName').hide();
+        $('#divUserId').hide();
+
+        $('.updateView4Teacher1').click(function () {
+            //pass data about new student to the hub
+            console.log("update view for teacher clicked");
+            var studentName = $('#divUserName').text();
+            var studentId = $('#divUserId').text();
+            myHub.server.updateNewStudent(studentName, studentId);
+        });
+        $('.updateView4Teacher2').click(function () {
+            //pass data about new student to the hub
+            console.log("update view for teacher clicked");
+            var studentName = $('#divUserName').text();
+            var studentId = $('#divUserId').text();
+            myHub.server.updateNewStudent(studentName, studentId);
+        });
+
+        //create the connection with connection.hub.start.
+        $.connection.hub.start().done(function () {
+            //Call myHub method
+            console.log("SignalR started");
+        });
+    </script>
+}

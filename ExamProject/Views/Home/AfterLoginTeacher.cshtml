@@ -1,0 +1,70 @@
+﻿@model IEnumerable<ExamProject.Models.Assignment>
+
+@{
+    ViewBag.Title = "AfterLoginTeacher";
+}
+
+@{
+    Layout = "~/Views/Shared/_LayoutTeacher.cshtml";
+}
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>After Login</title>
+</head>
+<body>
+    <h1>Teacher</h1>
+
+    <p>
+        @Ajax.ActionLink("Create New Assignment", "CreateAssignment", "", new AjaxOptions
+        {
+            UpdateTargetId = "createAssignmentDiv",
+            InsertionMode = InsertionMode.Replace
+        })
+    </p>
+    <div id="createAssignmentDiv"></div>
+
+    <table class="table">
+        <tr>
+            <th>
+                Title
+            </th>
+            <th>
+                Options
+            </th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "EditAssignment", new { id = item.AssignmentId }) |
+                    @Ajax.ActionLink("Details", "DetailsAssignment4Teacher", new { assignmentId = item.AssignmentId }, new AjaxOptions
+                    {
+                        UpdateTargetId = "detailsDiv",
+                        InsertionMode = InsertionMode.Replace
+                    }) |
+                    @Html.ActionLink("Statistics", "StatisticsAssignment", new { assignmentId = item.AssignmentId }) |
+                    @Html.ActionLink("Delete", "DeleteAssignment", new { id = item.AssignmentId })
+                </td>
+            </tr>
+        }
+    </table>
+    <div id="detailsDiv"></div>
+
+    <div>
+        @Html.ActionLink("Logout", "Index")
+    </div>
+
+</body>
+</html>
+
+@section scripts
+{
+    <script src="~/scripts/jquery.validate.min.js"></script>
+    <script src="~/scripts/jquery.validate.unobtrusive.min.js"></script>
+}

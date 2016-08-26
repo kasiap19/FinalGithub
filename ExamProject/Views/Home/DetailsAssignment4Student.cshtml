@@ -1,0 +1,92 @@
+﻿@model ExamProject.Models.StateOfAssignment
+
+@{
+    ViewBag.Title = "DetailsAssignment4Student";
+}
+
+@{
+    Layout = "~/Views/Shared/_LayoutStudent.cshtml";
+}
+
+<h2>Assignment Details</h2>
+<div id="divUserName">@Model.Student.UserName</div>
+<div>@Html.ActionLink("This Assignment has been modified by the teacher.", "DetailsAssignment4Student", new { stateOfAssignmentId = Model.StateOfAssignmentId }, new { @id = "promptModifiedAssignment" })</div>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Title
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Assignment.Title)
+        </dd>
+        <dt>
+            Description
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Assignment.Text)
+        </dd>
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("I am still working", "BetweenAfterLoginAndDetailsStudent", new { stateOfAssignmentId = Model.StateOfAssignmentId, state = 1 }, new { @class = "testLink1" }) |
+    @Html.ActionLink("I need help", "BetweenAfterLoginAndDetailsStudent", new { stateOfAssignmentId = Model.StateOfAssignmentId, state = 2 }, new { @class = "testLink2" }) |
+    @Html.ActionLink("I am finished", "BetweenAfterLoginAndDetailsStudent", new { stateOfAssignmentId = Model.StateOfAssignmentId, state = 3 }, new { @class = "testLink3" })
+</p>
+
+@section scripts
+{
+    <script src="~/Scripts/jquery.signalR-2.2.0.min.js"></script>
+    <script src="~/signalr/hubs"></script>
+    <script>
+        // proxy class for communicating with the server
+        var myHub = $.connection.myHub;
+
+        $('#divUserName').hide();
+        $('#promptModifiedAssignment').hide();
+
+        myHub.client.updateModifiedAssignment = function (assignmentId)
+        {
+            // tutaj trzeba przyrównać id wyświetlonego assignmentu z id zmodyfikowanego assignmentu
+            var temp = @Model.AssignmentId;
+            if(assignmentId == temp)
+            {
+                $('#promptModifiedAssignment').show();
+            }
+        }
+
+        $('.testLink1').click(function ()
+        {
+            console.log("link 1 clicked");
+            var studentId = @Model.StudentId;
+            var studentName = $('#divUserName').text();
+            var previousState = @Model.State;
+            state = 1;
+            myHub.server.updateAssignmentState(studentId, studentName, state, previousState);
+        });
+
+        $('.testLink2').click(function () {
+            console.log("link 2 clicked");
+            var studentId = @Model.StudentId;
+            var studentName = $('#divUserName').text();
+            var previousState = @Model.State;
+            state = 2;
+            myHub.server.updateAssignmentState(studentId, studentName, state, previousState);
+        });
+
+        $('.testLink3').click(function () {
+            console.log("link 3 clicked");
+            var studentId = @Model.StudentId;
+            var studentName = $('#divUserName').text();
+            var previousState = @Model.State;
+            state = 3;
+            myHub.server.updateAssignmentState(studentId, studentName, state, previousState);
+        });
+
+        //create the connection with connection.hub.start.
+        $.connection.hub.start().done(function () {
+            //Call myHub method
+            console.log("SignalR started");
+        });
+    </script>
+}

@@ -1,0 +1,186 @@
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project, not modified\ExamProject\ExamProject\obj\Debug\ExamProject.csprojResolveAssemblyReference.cache
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\ApplicationInsights.config
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\roslyn\csc.exe
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\roslyn\System.Collections.Immutable.dll
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\roslyn\System.Reflection.Metadata.dll
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\roslyn\vbc.exe
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\roslyn\VBCSCompiler.exe
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\roslyn\VBCSCompiler.exe.config
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\ExamProject.dll.config
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\ExamProject.dll
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\ExamProject.pdb
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\Antlr3.Runtime.dll
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\EntityFramework.dll
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\EntityFramework.SqlServer.dll
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\Microsoft.AI.DependencyCollector.dll
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\Microsoft.AI.Web.dll
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\Microsoft.AI.WindowsServer.dll
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\Microsoft.ApplicationInsights.dll
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\Microsoft.AspNet.SignalR.Core.dll
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\Microsoft.Owin.dll
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\Microsoft.Owin.Security.dll
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\Microsoft.Owin.Security.Google.dll
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\Microsoft.Web.Infrastructure.dll
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\Newtonsoft.Json.dll
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\Owin.dll
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\System.Web.Helpers.dll
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\System.Web.Mvc.dll
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\System.Web.Optimization.dll
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\System.Web.Razor.dll
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\System.Web.WebPages.Deployment.dll
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\System.Web.WebPages.dll
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\System.Web.WebPages.Razor.dll
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\WebGrease.dll
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\Microsoft.AI.DependencyCollector.xml
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\Microsoft.AI.Web.xml
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\Microsoft.AI.WindowsServer.xml
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\Microsoft.ApplicationInsights.xml
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\Microsoft.AspNet.SignalR.Core.xml
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\System.Web.Helpers.xml
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\System.Web.Mvc.xml
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\System.Web.Optimization.xml
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\System.Web.Razor.xml
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\System.Web.WebPages.xml
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\System.Web.WebPages.Deployment.xml
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\System.Web.WebPages.Razor.xml
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\Antlr3.Runtime.pdb
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\Newtonsoft.Json.xml
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\EntityFramework.xml
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\EntityFramework.SqlServer.xml
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\Microsoft.Owin.xml
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\Microsoft.Owin.Security.xml
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\Microsoft.Owin.Security.Google.xml
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\obj\Debug\ExamProject.csprojResolveAssemblyReference.cache
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\obj\Debug\ExamProject.dll
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\obj\Debug\ExamProject.pdb
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\obj\Debug\ExamProject.Migrations.InitialCreate.resources
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\obj\Debug\ExamProject.csproj.GenerateResource.Cache
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\obj\Debug\ExamProject.Migrations._111.resources
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\obj\Debug\ExamProject.Migrations._222.resources
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\obj\Debug\ExamProject.Migrations._333.resources
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\obj\Debug\ExamProject.Migrations._444.resources
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\obj\Debug\ExamProject.Migrations._555.resources
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\obj\Debug\ExamProject.Migrations._666.resources
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\obj\Debug\ExamProject.Migrations._777.resources
+D:\Dysk Google\KEA\Exam Project DevEnv\test2 - mvc project not modified\ExamProject\ExamProject\obj\Debug\ExamProject.Migrations._888.resources
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\ApplicationInsights.config
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\roslyn\csc.exe
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\roslyn\vbc.exe
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\roslyn\VBCSCompiler.exe
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\ExamProject.dll.config
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\ExamProject.dll
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\ExamProject.pdb
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\Antlr3.Runtime.dll
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\EntityFramework.dll
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\EntityFramework.SqlServer.dll
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\Microsoft.AI.Web.dll
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\Microsoft.ApplicationInsights.dll
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\Microsoft.Owin.dll
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\Microsoft.Owin.Security.dll
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\Newtonsoft.Json.dll
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\Owin.dll
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\System.Web.Helpers.dll
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\System.Web.Mvc.dll
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\System.Web.Optimization.dll
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\System.Web.Razor.dll
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\System.Web.WebPages.Deployment.dll
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\System.Web.WebPages.dll
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\System.Web.WebPages.Razor.dll
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\WebGrease.dll
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\Microsoft.AI.Web.xml
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\Microsoft.ApplicationInsights.xml
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\System.Web.Helpers.xml
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\System.Web.Mvc.xml
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\System.Web.Optimization.xml
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\System.Web.Razor.xml
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\System.Web.WebPages.xml
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\System.Web.WebPages.Deployment.xml
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\System.Web.WebPages.Razor.xml
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\Antlr3.Runtime.pdb
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\Newtonsoft.Json.xml
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\EntityFramework.xml
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\EntityFramework.SqlServer.xml
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\Microsoft.Owin.xml
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\Microsoft.Owin.Security.xml
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\obj\Debug\ExamProject.csprojResolveAssemblyReference.cache
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\obj\Debug\ExamProject.dll
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\obj\Debug\ExamProject.pdb
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\obj\Debug\ExamProject.Migrations.InitialCreate.resources
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\obj\Debug\ExamProject.csproj.GenerateResource.Cache
+C:\Users\kasia\Documents\GitHub\ExamProject\ExamProject\ExamProject\obj\Debug\ExamProject.Migrations.Student.resources

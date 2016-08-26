@@ -1,0 +1,125 @@
+﻿@model IEnumerable<ExamProject.Models.StateOfAssignment>
+
+@{
+    ViewBag.Title = "DetailsAssignment4Teacher";
+}
+
+@{
+    Layout = "~/Views/Shared/_LayoutTeacher.cshtml";
+}
+
+<h2>Assignment Details</h2>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Assignment Details</title>
+</head>
+<body>
+    <div id="promptStatusChange"></div>
+    <div>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                Title
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.First().Assignment.Title)
+            </dd>
+            <dt>
+                Description
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.First().Assignment.Text)
+            </dd>
+        </dl>
+    </div>
+    <table class="table" id="tableStudents">
+        <tr>
+            <th>
+                Student
+            </th>
+            <th>
+                State
+            </th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Student.UserName)
+                </td>
+                @if (item.State == 1)
+                {
+
+                    <td id="@item.StudentId" >Still Working</td>
+                }
+                else if (item.State == 2)
+                {
+                    <td id="@item.StudentId" class="text-danger">Need Help</td>
+                }
+                else
+                {
+                    <td id="@item.StudentId" class="text-success">Finished</td>
+                }
+            </tr>
+        }
+    </table>
+    <div id="detailsDiv"></div>
+
+    <div>
+        @Html.ActionLink("Back", "AfterLoginTeacher")
+    </div>
+
+</body>
+</html>
+
+@section scripts
+{
+    <script src="~/Scripts/jquery.signalR-2.2.0.min.js"></script>
+    <script src="~/signalr/hubs"></script>
+    <script>
+        // proxy class for communicating with the server
+        var myHub = $.connection.myHub;
+ 
+        myHub.client.updateAssignmentState = function (studentId, studentName, state, previousState)
+        {
+
+            if (state == 1)
+            {
+                message = "Student " + studentName + " updated this assignement to state: Still Working";
+                $('#promptStatusChange').text(message);
+                $('#' + studentId).text("Still Working").removeClass("text-danger text-success");
+            }
+            else if(state==2)
+            {
+                message = "Student " + studentName + " updated this assignement to state: Need Help";
+                $('#promptStatusChange').text(message);
+                $('#' + studentId).text("Need Help").removeClass("text-success").addClass("text-danger");
+            }
+            else
+            {
+                message = "Student " + studentName + " updated this assignement to state: Finished";
+                $('#promptStatusChange').text(message);
+                $('#' + studentId).text("Finished").removeClass("text-danger").addClass("text-success");
+            }
+        }
+
+        myHub.client.updateNewStudent = function (studentname, studentId)
+        {
+            //check if this student was already added
+            if ($("#" + studentId).length == 0) {
+                //it doesn't exist
+                $('#tableStudents').append('<tr><td>' + studentname + '</td><td id="' + studentId + '">Still Working</td></tr>');
+            }
+            //$('#tableStudents').append('<tr><td>' + studentname + '</td><td id="' + studentId + '">Still Working</td></tr>');
+        }
+
+        //create the connection with connection.hub.start.
+        $.connection.hub.start().done(function () {
+            //Call myHub method
+            console.log("SignalR started");
+        });
+    </script>
+}
